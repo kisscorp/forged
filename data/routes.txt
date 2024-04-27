@@ -3,3 +3,5 @@
 /test/manage
 /introduction
 /introduction/manage
+/lasagne
+/lasagne/manage
