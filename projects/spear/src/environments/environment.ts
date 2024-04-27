@@ -27,7 +27,7 @@ const signingKeys = {
 
 export const environment = {
   production: false,
-  site: 'spearhead-docs',
+  site: 'forged',
   apiGatewaySettings: {
     // endpointUrl: 'https://localhost:44340',
     endpointUrl: "https://vertigo.druidcloud.dev/rollthecloudinc/spearhead-docs-objects/shapeshifter"
@@ -67,7 +67,7 @@ export const environment = {
   panelsSettings: {
     openSearchDomain: 'search-classifieds-ui-dev-eldczuhq3vesgpjnr3vie6cagq',
     s3Bucket: 'classifieds-ui-dev',
-    objectsRootUrl: 'https://rollthecloudinc.github.io/spearhead-docs-objects'
+    objectsRootUrl: 'https://forged-objects.climateaware-dev.eco'
   },
   alienaliasSettings: {
     openSearchDomain: 'search-classifieds-ui-dev-eldczuhq3vesgpjnr3vie6cagq'
