@@ -1,11 +1,11 @@
-<div class="top-header border-b border-b-stone-300 px-4 flex flex-row justify-between">
-  <p class="brand text-emerald-700 font-semibold"><a href="https://github.com/rollthecloudinc/spearhead-docs">Spearhead Docs <svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="inline mb-1"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></p>
+<div class="top-header px-4 flex flex-row justify-between">
+  <p class="brand font-semibold"><a href="https://github.com/kisscorp/forged">forged <svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="inline mb-1"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></p>
   <div>
     <dl class="flex items-center h-full">
       <dt>Emissions:</dt>
       <dt class="mr-6 ml-1">100g</dt>
-      <dt class="text-emerald-700">Offset:</dt>
-      <dt class="mr-6 text-emerald-700 ml-1">50g</dt>
+      <dt class="offset">Offset:</dt>
+      <dt class="mr-6 ml-1 offset">50g</dt>
       <dt>Remaining:</dt>
       <dt class="ml-1 mr-6">50g</dt>
       <dt>
@@ -32,19 +32,12 @@
     <div class="px-2 py-2 sidebar">
       <nav>
         <ul class="text-slate-600">
-          <li><a class="px-2 py-2 flex hover:bg-neutral-100 hover:text-emerald-700" routerLink="/">Welcome</a></li>
-          <li><a class="px-2 py-2 flex hover:bg-neutral-100 hover:text-emerald-700" routerLink="/introduction">Introduction</a></li>
-          <li><a class="px-2 py-2 flex hover:bg-neutral-100 hover:text-emerald-700" routerLink="/carbon-efficiency">Carbon Efficency</a></li>
-          <li><a class="px-2 py-2 flex hover:bg-neutral-100 hover:text-emerald-700" routerLink="/energy-efficiency">Energy Efficency</a></li>
-          <li><a class="px-2 py-2 flex hover:bg-neutral-100 hover:text-emerald-700" routerLink="/carbon-awareness">Carbon Awareness</a></li>
-          <li><a class="px-2 py-2 flex hover:bg-neutral-100 hover:text-emerald-700" routerLink="/hardware-efficiency">Hardware Efficency</a></li>
-          <li><a class="px-2 py-2 flex hover:bg-neutral-100 hover:text-emerald-700" routerLink="/measurement">Measurement</a></li>
-          <li><a class="px-2 py-2 flex hover:bg-neutral-100 hover:text-emerald-700" routerLink="/climate-commitments">Climate Comittments</a></li>
-          <li><a class="px-2 py-2 flex hover:bg-neutral-100 hover:text-emerald-700" routerLink="/glossary">Glossary</a></li>
+          <li><a class="px-2 py-2 flex" routerLink="/">Welcome</a></li>
+          <li><a class="px-2 py-2 flex" routerLink="/lasagne">Lasagne</a></li>
         </ul>
       </nav>
     </div>
-    <div class="px-4 py-4 border-l border-l-stone-300">
+    <div class="px-4 py-4">
       <router-outlet></router-outlet>
     </div>
   </div>

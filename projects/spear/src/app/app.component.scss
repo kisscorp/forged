@@ -11,6 +11,7 @@
 .brand {
   line-height: 3.75em;
   position: relative;
+  color: #00BFFF;
 }
 
 .outlet-wrapper {
@@ -22,7 +23,15 @@
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: white;
+  background-color: black;
+}
+
+.top-header dl {
+  color: #00BFFF;
+}
+
+.top-header .offset {
+  color: #9932CC;
 }
 
 .sidebar {
@@ -34,7 +43,11 @@
   width: 19%;
 }
 
+.sidebar a {
+  color: #00BFFF;
+}
+
 footer {
-  background-color: #032629;
+  background-color: black;
 }
 
