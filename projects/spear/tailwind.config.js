@@ -5,6 +5,6 @@ module.exports = {
     './projects/spear/src/assets/objects/panelpage/*.json'
   ],
   plugins: [
-    require('@tailwindcss/typography'),
+    require('@tailwindcss/typography')
   ]
 }

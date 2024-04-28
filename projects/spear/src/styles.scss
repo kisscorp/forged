@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 /* You can add global styles to this file, and also import other style files */
-html, body { height: 100%; background-color: #eee; }
+html, body { height: 100%; background-color: black; }
 
 ul {
   padding: 0;
@@ -30,4 +30,23 @@ classifieds-ui-page-router-link[href*="manage"] {
 
 classifieds-ui-page-router-link[href*="manage"] a:hover {
   text-decoration: underline;
+}
+
+.pane > div {
+  margin-top: 1em;
+  color: #ADD8E6;
+}
+
+.pane p {
+  line-height: 1.9;
+}
+
+.pane ul,
+.pane ol {
+  margin-left: 1em;
+  list-style: disc;
+}
+
+.pane ul {
+  list-style: disc;
 }
