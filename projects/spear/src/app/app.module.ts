@@ -57,6 +57,9 @@ import { panelpages as panelpages2 } from '../data/panelpages';
 import { OrdainModule } from '@rollthecloudinc/ordain';
 import { DparamModule } from '@rollthecloudinc/dparam';
 import { DetourModule } from '@rollthecloudinc/detour';
+import { MatLegacyDialogActions as MatDialogActions, MatLegacyDialogContent as MatDialogContent, MatLegacyDialogClose as MatDialogClose } from "@angular/material/legacy-dialog";
+import { MatLegacyDialogModule as MatDialogModule } from '@angular/material/legacy-dialog';
+import { ZeffyDialogDialog } from './components/zeffy-dialog/zeffy-dialog.component';
 
 // import { FlexLayoutServerModule } from '@angular/flex-layout/server';
 // import { MonacoEditorModule } from 'ngx-monaco-editor';
@@ -89,7 +92,7 @@ export function markedOptionsFactory(): MarkedOptions {
 }
 
 @NgModule({
-  declarations: [AppComponent ],
+  declarations: [AppComponent, ZeffyDialogDialog ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'serverApp' }),
     CommonModule,
@@ -164,7 +167,8 @@ export function markedOptionsFactory(): MarkedOptions {
     PagesModule,
     OrdainModule,
     DparamModule,
-    DetourModule
+    DetourModule,
+    MatDialogModule
   ],
   providers: [
     provideClientHydration(),

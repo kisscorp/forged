@@ -20,7 +20,7 @@
   </div>
     <div class="flex items-center h-full">
       <a class="brand text-slate-600 font-medium tracking-wide hover:text-emerald-700 mr-6" href="https://rtc.eco">a Roll The Cloud Inc. initiative <svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="inline mb-1"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a>
-      <button class="hover:bg-gray-100 font-semibold py-2 px-4 rounded shadow donate" zeffy-form-link="https://www.zeffy.com/en-US/embed/donation-form/037136eb-a735-4cbb-8952-356f978b2972?modal=true">Donate</button>
+      <button class="hover:bg-gray-100 font-semibold py-2 px-4 rounded shadow donate" (click)="openZeffy()">Donate</button>
     </div>
 </div>
 <div class="top-header-push"></div>
@@ -48,7 +48,7 @@
     <div>
       <div class="font-medium tracking-wide pb-4 heading">Support</div>
       <ul class="space-y-1.5">
-        <li><button class="text-sm font-light tracking-wide hover:text-white hover:underline donate" zeffy-form-link="https://www.zeffy.com/en-US/embed/donation-form/037136eb-a735-4cbb-8952-356f978b2972?modal=true">Donate <svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="inline mb-1"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></button></li>
+        <li><button class="text-sm font-light tracking-wide hover:text-white hover:underline donate" (click)="openZeffy()">Donate <svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="inline mb-1"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></button></li>
         <li><a class="text-sm font-light tracking-wide hover:text-white hover:underline" href="https://www.bonfire.com/store/impact-earth/">Apparel <svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="inline mb-1"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li>
       </ul>
     </div>
