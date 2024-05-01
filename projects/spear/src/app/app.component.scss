@@ -37,6 +37,21 @@
 .top-header .contribute {
   background-color: #9932CC;
   color: #800080;
+  text-decoration: line-through;
+  opacity: .6;
+}
+
+.top-header .coming-soon {
+  font-size: small;
+  color: #ADD8E6;
+  display: inline-block;
+  padding-left: 1em;
+  letter-spacing: .15em;
+}
+
+.top-header .donate {
+  background-color: #9932CC;
+  color: #800080;
 }
 
 .sidebar {
